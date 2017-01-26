@@ -1,0 +1,131 @@
+
+*{
+    background-color: RGB(3,69,89);
+}
+
+.navBar{
+    opacity: 70%;
+}
+
+.navBar li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    float: center;
+    font-size: 27px;
+    text-align: center;
+    width: 24%;
+    color: RGB(217,187,90);
+    font-family: 'Slabo 27px', serif;
+    font-weight: 700;
+}
+
+.jumbotron{
+    box-sizing: border-box;
+    padding-top: 0;
+    margin: 0px;    
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1120px;
+    width: 100%;
+    background-color:  black;
+}
+
+.jumboBackground{
+    height: 100%;
+    background-image: url(images/bar02.jpg);
+    padding-right: 5%;
+
+}
+
+.heroText{
+    float: left;
+    text-align: center;
+    width:50%;
+    height: 5%;
+    margin-bottom: 90%;
+    background-color: RGBa(39,84,89, 0.90);
+}
+
+
+.heroText h1{
+    font-family: 'Slabo 27px', serif;
+    text-align: center;
+    padding-top: 5%; 
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 70%;
+    background-color: rgb(193,155,91);
+    font-size: 78px;
+    color: rgb(3,69,89); 
+}
+
+
+
+
+
+/*---Byline-------*/
+
+.byline{
+    margin: 2% rgb(3,69,89);
+    padding: 2%;
+}
+
+.byline p{
+    font-family: 'Slabo 27px', serif;
+    color: RGB(217,187,90);   
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+/*---Featured content--*/
+
+.featuredContent{
+    padding-top: 100px;
+    margin-top: 0px;
+    background-color: rgb(193,155,91);
+}
+
+#feature1, #feature2, #feature3, #feature4, #feature5, #feature6{
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+.featuredContent img{
+    display: inline;
+    margin: 0;
+    max-height: 200px;;
+    max-width: 200px;
+}
+
+
+.featuredContent p{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 40px;
+    color: azure;
+    font-family: 'Adamina', serif;
+    letter-spacing: 0.5px;
+
+}
+
+.featuredContent h1{
+    text-align: left;
+    font-size: 28px;
+    padding-left: 40px;
+    color: azure;
+    font-family: 'Slabo 27px', serif;
+    color: RGB(217,187,90);
+}
+
+
+.feature{
+    padding-bottom: 70px; 
+    text-align: left;     
+}
