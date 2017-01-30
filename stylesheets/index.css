@@ -1,131 +1,100 @@
+@font-face {
+    font-family: 'museo_slab500';
+    src: url(Museo_Slab_500_2-webfont.eot');
+    src: url('Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-*{
-    background-color: RGB(3,69,89);
 }
 
-.navBar{
-    opacity: 70%;
-}
 
-.navBar li{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    float: center;
-    font-size: 27px;
-    text-align: center;
-    width: 24%;
-    color: RGB(217,187,90);
-    font-family: 'Slabo 27px', serif;
-    font-weight: 700;
+body { 
+    font: 100%/1.5; /* 16px */ 
 }
 
 .jumbotron{
-    box-sizing: border-box;
-    padding-top: 0;
-    margin: 0px;    
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 1120px;
-    width: 100%;
-    background-color:  black;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background: black;
 }
 
-.jumboBackground{
-    height: 100%;
-    background-image: url(images/bar02.jpg);
-    padding-right: 5%;
-
-}
-
-.heroText{
-    float: left;
-    text-align: center;
-    width:50%;
-    height: 5%;
-    margin-bottom: 90%;
-    background-color: RGBa(39,84,89, 0.90);
-}
-
-
-.heroText h1{
-    font-family: 'Slabo 27px', serif;
-    text-align: center;
-    padding-top: 5%; 
-    padding-left: 20%;
-    padding-right: 20%;
-    width: 70%;
-    background-color: rgb(193,155,91);
-    font-size: 78px;
-    color: rgb(3,69,89); 
-}
-
-
-
-
-
-/*---Byline-------*/
-
-.byline{
-    margin: 2% rgb(3,69,89);
-    padding: 2%;
-}
-
-.byline p{
-    font-family: 'Slabo 27px', serif;
-    color: RGB(217,187,90);   
-    text-align: center;
-    font-size: 32px;
-    letter-spacing: 1.5px;
-}
-
-
-
-
-/*---Featured content--*/
-
-.featuredContent{
-    padding-top: 100px;
-    margin-top: 0px;
-    background-color: rgb(193,155,91);
-}
-
-#feature1, #feature2, #feature3, #feature4, #feature5, #feature6{
+.navBar{
     margin: 0;
     padding: 0;
-    align-content: center;
+    display: block;
 }
 
-.featuredContent img{
-    display: inline;
+.navBar ul{
+    width: 100%;
+    padding: 0;
     margin: 0;
-    max-height: 200px;;
-    max-width: 200px;
+    margin-top: 1em;
+    float: left;
+    text-align: center;
+    font-family: 'museo_slab500', sans-serif;
+    color: RGB(238, 191, 112);
+}
+
+.navBar li{
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0.5%;
+    font-size: 22px;
+    width: 19%;
 }
 
 
-.featuredContent p{
-    text-align: left;
-    font-size: 18px;
-    padding-left: 40px;
-    color: azure;
-    font-family: 'Adamina', serif;
-    letter-spacing: 0.5px;
+.jumboBackground{
+    background: url(../images/bar_BW.jpg) black no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+        padding-bottom: 5%;
+}
+
+.jumboBackground img{
+    visibility: hidden;
+    width: 100%;
+    height: 550px;
 
 }
 
-.featuredContent h1{
-    text-align: left;
-    font-size: 28px;
-    padding-left: 40px;
-    color: azure;
-    font-family: 'Slabo 27px', serif;
-    color: RGB(217,187,90);
+.heroText h2{
+    font-family: 'Raleway', serif;
+    color: RGB(238, 191, 112);
+    font-size: 4em;
+    width: 20%;
+    margin: auto;
+    padding-right: 60%;
+}
+
+.heroText h3{
+    font-family: 'Raleway', serif;
+    color: RGB(238, 191, 112);
+    font-size: 3em;
+    width: 20%;
+    margin: auto;
+    padding-right: 45%;
+}
+
+.heroText #blackHorseText{
+    width: 40%;
+    background-color: RGBa(234, 154, 0, 0.75);
+    margin: auto;
+}
+
+.heroText #blackHorseText h1{
+    vertical-align: middle;
+    font-size: 5em;
+    font-family: 'museo_slab500', serif;
+    text-align: center;
 }
 
 
-.feature{
-    padding-bottom: 70px; 
-    text-align: left;     
-}
+
