@@ -17,6 +17,8 @@ body {
     background-color: black;
 }
 
+
+/*-- Hero section, inc. navbar--*/
 .jumbotron{
     padding: 0;
     margin: 0;
@@ -56,7 +58,7 @@ body {
     background-size: cover;
     padding: 0;
     margin: 0;
-    padding-bottom: 9%;
+    padding-bottom: 2%;
 }
 
 
@@ -97,6 +99,17 @@ body {
     text-align: center;
 }
 
+.arrowIcon{
+    text-align: center;
+}
+
+.arrowIcon img{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    height: 2%;
+    width: 2%;
+}
+
 .heroCopy{
     width: 100%;
     padding-top: 3em;
@@ -116,34 +129,14 @@ body {
 }
 
 
-/*----
-.introText{
-    float: left;
-    margin: 0;
-    padding: 0;
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    text-align: center;
-    background-color: RGBa(238, 191, 112, 0.8)   
-}
 
-.introText p{
-    font-family: 'Raleway', sans-serif;
-    color: RGBa(black, 0.8);
-    font-size: 1.25em;
-    font-weight: 600;
-}
----*/
+/*---Features section ---
+-----Welcome, find us, what's on ---*/
 
 .features{
     float: left;
-    margin: 0;
-    padding: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 40px;
+    padding-left: 11%;
+    padding-right: 11%;
     text-align: center;
     background-color: RGBa(238, 191, 112, 0.8);
     color: RGB(89, 89, 79);
@@ -152,32 +145,53 @@ body {
 .features div{
     display: inline-block;
     width: 33%;
-    padding-top: 2em;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 2em 3%;
+    padding-bottom: 4%;
+    vertical-align: top;
+}
+
+.featureImage{
+    display: inline-block;
 }
 
 .features img{
     vertical-align: top;
-    height: 50%;
-    width: 50%;
-    vertical-align: top;
+    height: 100%;
+    width: 100%;
     font-size: 0;
 }
 
 .features h2{
     font-family: 'museo_slab500', serif;
     text-align: center;
-    
+    padding: 2%;
+    padding-top: 4%;
+    margin: 1%;
+    color:  RGBa(3, 69, 89, 0.85);
+
 }
 
 .features p{
     vertical-align: top;
-    color: RGB(black);
-    font-family: 'museo_slab500', serif;
+    padding-top: 5%;
+        font-family: 'museo_slab500', serif;
     text-align: justify;
     font-size: 1.25em;
     font-weight: 100; 
-    letter-spacing: 1.25px;
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
 }
+
+.slideshow{
+    float: left;
+    width: 100%;
+    border: 0;
+    background-color: RGBa(238, 191, 112, 0.8);
+}
+
+.slideshow img{
+    width: 100%;
+}
+
+
 
