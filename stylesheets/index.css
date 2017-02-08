@@ -312,32 +312,31 @@ body {
 
 
 /*---Footer---*/
-.footer{
+.footerContact{
     float: left;
     width: 100%;
     padding-left: 9%;
     padding-right: 9%;
     padding-bottom: 2%; 
-    text-align: left;
     background-color: RGBa(3, 69, 89, 0.85);
     color: RGB(89, 89, 79);
 }
 
-.footer div{
+.footerContact div{
     display: inline-block;
     width: 33%;
     padding: 2em 3%;
     padding-bottom: 2%;
     vertical-align: top;}
 
-.footer h3{
+.footerContact h3{
     font-family: 'museo_slab500', serif;
     padding: 0;
     margin: 0;
     color:  RGB(238, 191, 112);
 }
 
-.footer p{
+.footerContact p{
     vertical-align: top;
     padding-top: 5%;
     font-family: 'museo_slab500', serif;
@@ -349,7 +348,7 @@ body {
     color: RGB(202, 152, 68);
 }
 
-.footer img{
+.footerContact img{
     width: 20%;
     vertical-align: middle;
     padding: 2%;
