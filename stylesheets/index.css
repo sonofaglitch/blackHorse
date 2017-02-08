@@ -253,7 +253,7 @@ body {
 
 .infoContainer h2{
     font-family: 'museo_slab500', serif;
-    text-align: left;
+    text-align: center;
     color:  RGBa(3, 69, 89, 0.85);
     padding: 2%;
 }
@@ -271,18 +271,18 @@ body {
 .openingTimesBox{
     float: left;
     display: inline-block;
-    width: 40%; 
+    width: 100%; 
 }
 
 .openingTimesLeft{
     float: left;
-    padding-left: 2%;
+    padding-left: 35%;
 }
 
 
 .openingTimesRight{
-    float: left;
-    padding-left: 10%;
+    float: right;
+    padding-right: 35%;
 }
 
 .pubInfoBox{
