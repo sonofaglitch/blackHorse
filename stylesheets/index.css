@@ -241,30 +241,25 @@ body {
 .infoContainer{
     float: left;
     background-color: RGBa(238, 191, 112, 0.8);
+    width: 100%;
     padding-left: 12%;
     padding-right: 12%;
     padding-bottom: 5%; 
     text-align: center;
     color: RGB(89, 89, 79);
     overflow: hidden;
-
 }
 
-.infoContainer div{
-    padding: 2%;
-}
 
 .infoContainer h2{
     font-family: 'museo_slab500', serif;
     text-align: left;
-    padding-top: 4%;
-    margin-left: 0; 
     color:  RGBa(3, 69, 89, 0.85);
+    padding: 2%;
 }
 
 .infoContainer p{
     vertical-align: top;
-    padding-top: 5%;
     font-family: 'museo_slab500', serif;
     text-align: justify;
     font-size: 1.25em;
@@ -277,22 +272,41 @@ body {
     float: left;
     display: inline-block;
     width: 40%; 
-    padding-left: 50%;
 }
 
 .openingTimesLeft{
     float: left;
+    padding-left: 2%;
 }
 
 
 .openingTimesRight{
-    float: right;
+    float: left;
+    padding-left: 10%;
 }
 
 .pubInfoBox{
     float: right;
     display: inline-block;
-    width: 50%;
+    width: 60%;
+}
+
+.pubInfoBox h2{
+    padding-left: 10%;
+}
+
+.pubInfoBoxLeft{
+    float: left;
+    padding-left: 10%;
+}
+
+.pubInfoBoxLeft img{
+    width: 15%;
+}
+
+.pubInfoBoxRight{
+    float: right;
+    padding-right:  10%;
 }
 
 
