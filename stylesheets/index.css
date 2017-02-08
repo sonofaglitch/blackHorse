@@ -315,8 +315,8 @@ body {
 .footer{
     float: left;
     width: 100%;
-    padding-left: 11%;
-    padding-right: 11%;
+    padding-left: 9%;
+    padding-right: 9%;
     padding-bottom: 2%; 
     text-align: left;
     background-color: RGBa(3, 69, 89, 0.85);
@@ -349,17 +349,44 @@ body {
     color: RGB(202, 152, 68);
 }
 
+.footer img{
+    width: 20%;
+    vertical-align: middle;
+    padding: 2%;
+    display: inline-block;
+}
+
 /*---footer-contact---*/
-.footer-contact{
+.footerPhone{
     
 }
 
+.footerPhone p{
+    padding-left: 5%;
+    display: inline-block;
+}
+
+.footerPhone{
+    text-align: left;
+}
+
 /*---footer-socialMedia---*/
-.footer-socialMedia{
+.footerFacebook p{
+    padding-left: 5%;
+    display: inline-block;
+}
+
+.footerFacebook{
     text-align: center;
 }
 
 /*---footer-tweetFeed---*/
-.footer-tweetFeed{
+.footerEmail p{
+    padding-left: 5%;
+
+    display: inline-block;
+}
+
+.footerEmail{
     text-align: right;
 }
