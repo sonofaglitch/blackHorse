@@ -241,8 +241,8 @@ body {
 .infoContainer{
     float: left;
     background-color: RGBa(238, 191, 112, 0.8);
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-bottom: 5%; 
     text-align: center;
     color: RGB(89, 89, 79);
@@ -258,13 +258,12 @@ body {
     font-family: 'museo_slab500', serif;
     text-align: left;
     padding-top: 4%;
-    margin: 1%;
     margin-left: 0; 
     color:  RGBa(3, 69, 89, 0.85);
 }
 
 .infoContainer p{
-        vertical-align: top;
+    vertical-align: top;
     padding-top: 5%;
     font-family: 'museo_slab500', serif;
     text-align: justify;
@@ -275,16 +274,25 @@ body {
 }
 
 .openingTimesBox{
+    float: left;
     display: inline-block;
-    width: 40%;
-    padding-right: 10%;
+    width: 40%; 
+    padding-left: 50%;
+}
+
+.openingTimesLeft{
+    float: left;
+}
+
+
+.openingTimesRight{
+    float: right;
 }
 
 .pubInfoBox{
+    float: right;
     display: inline-block;
-    width: 40%;
-    padding-right: 10%;
-    
+    width: 50%;
 }
 
 
@@ -295,7 +303,7 @@ body {
     width: 100%;
     padding-left: 11%;
     padding-right: 11%;
-    padding-bottom: 5%; 
+    padding-bottom: 2%; 
     text-align: left;
     background-color: RGBa(3, 69, 89, 0.85);
     color: RGB(89, 89, 79);
@@ -305,8 +313,27 @@ body {
     display: inline-block;
     width: 33%;
     padding: 2em 3%;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
     vertical-align: top;}
+
+.footer h3{
+    font-family: 'museo_slab500', serif;
+    padding: 0;
+    margin: 0;
+    color:  RGB(238, 191, 112);
+}
+
+.footer p{
+    vertical-align: top;
+    padding-top: 5%;
+    font-family: 'museo_slab500', serif;
+    text-align: justify;
+    font-size: 1.25em;
+    font-weight: 100; 
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+    color: RGB(202, 152, 68);
+}
 
 /*---footer-contact---*/
 .footer-contact{
