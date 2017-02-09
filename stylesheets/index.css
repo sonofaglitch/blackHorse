@@ -312,31 +312,44 @@ body {
 
 
 /*---Footer---*/
-.footerContact{
+
+.footer img{
+    width: 20%;
+    vertical-align: middle;
+    padding: 2%;
+    display: inline-block;
+}
+
+/*--FooterContactStrip --*/
+.footerContactStrip{
     float: left;
     width: 100%;
+    padding: 0;
     padding-left: 9%;
     padding-right: 9%;
-    padding-bottom: 2%; 
-    background-color: RGBa(3, 69, 89, 0.85);
+    background-color: RGB(86, 79, 79);
     color: RGB(89, 89, 79);
 }
 
-.footerContact div{
+.footerContactStrip div{
     display: inline-block;
     width: 33%;
-    padding: 2em 3%;
-    padding-bottom: 2%;
-    vertical-align: top;}
+    padding: 1% 3%;
+    vertical-align: top;
+}
 
-.footerContact h3{
+.footerContactStrip img{
+    width: 17%;
+}
+
+.footerContactStrip h3{
     font-family: 'museo_slab500', serif;
     padding: 0;
     margin: 0;
     color:  RGB(238, 191, 112);
 }
 
-.footerContact p{
+.footerContactStrip p{
     vertical-align: top;
     padding-top: 5%;
     font-family: 'museo_slab500', serif;
@@ -348,11 +361,42 @@ body {
     color: RGB(202, 152, 68);
 }
 
-.footerContact img{
-    width: 20%;
-    vertical-align: middle;
-    padding: 2%;
+
+/*--FooterMain --*/
+.footerMain{
+    float: left;
+    width: 100%;
+    padding-left: 9%;
+    padding-right: 9%;
+    background-color: RGBa(3, 69, 89, 0.85);
+    color: RGB(89, 89, 79);
+}
+
+.footerMain div{
     display: inline-block;
+    width: 33%;
+    padding: 2em 3%;
+    padding-bottom: 2%;
+    vertical-align: top;
+}
+
+.footerMain h3{
+    font-family: 'museo_slab500', serif;
+    padding: 0;
+    margin: 0;
+    color:  RGB(238, 191, 112);
+}
+
+.footerMain p{
+    vertical-align: top;
+    padding-top: 5%;
+    font-family: 'museo_slab500', serif;
+    text-align: justify;
+    font-size: 1.25em;
+    font-weight: 100; 
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+    color: RGB(202, 152, 68);
 }
 
 /*---footer-contact---*/
@@ -382,7 +426,6 @@ body {
 /*---footer-tweetFeed---*/
 .footerEmail p{
     padding-left: 5%;
-
     display: inline-block;
 }
 
