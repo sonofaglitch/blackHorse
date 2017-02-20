@@ -314,9 +314,8 @@ body {
 /*---Footer---*/
 
 .footer img{
-    width: 20%;
+    width: 30%;
     vertical-align: middle;
-    padding: 2%;
     display: inline-block;
 }
 
@@ -324,16 +323,17 @@ body {
 .footerContactStrip{
     float: left;
     width: 100%;
-    padding: 0;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: RGB(86, 79, 79);
     color: RGB(89, 89, 79);
 }
 
 .footerContactStrip div{
     display: inline-block;
-    width: 33%;
+    width: 24%;
     padding: 1% 3%;
     vertical-align: top;
 }
@@ -352,8 +352,9 @@ body {
 .footerContactStrip p{
     vertical-align: top;
     padding-top: 5%;
+    margin: 0;
     font-family: 'museo_slab500', serif;
-    text-align: justify;
+    text-align: center;
     font-size: 1.25em;
     font-weight: 100; 
     letter-spacing: 1px;
@@ -362,12 +363,64 @@ body {
 }
 
 
+/*---footer-contact---*/
+
+.footerPhone{
+    text-align: center;
+}
+
+
+.footerPhone p{
+    padding-left: 5%;
+    display: inline-block;
+}
+
+
+/*---footer-socialMedia---*/
+
+.footerFacebook{
+    text-align: center;
+}
+
+
+.footerFacebook p{
+    padding-left: 5%;
+    display: inline-block;
+}
+
+
+.footerTwitter{
+    text-align: center;
+}
+
+
+.footerTwitter p{
+    padding-left: 5%;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.footerEmail{
+    text-align: right;
+    padding-right: 0;
+        text-align: center;
+
+}
+
+
+.footerEmail p{
+    padding-left: 5%;
+    display: inline-block;
+}
+
+
 /*--FooterMain --*/
 .footerMain{
     float: left;
     width: 100%;
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: RGBa(3, 69, 89, 0.85);
     color: RGB(89, 89, 79);
 }
@@ -396,39 +449,33 @@ body {
     font-weight: 100; 
     letter-spacing: 1px;
     word-spacing: 0.5px;
-    color: RGB(202, 152, 68);
+    color: RGB(212, 190, 106);    
 }
 
-/*---footer-contact---*/
-.footerPhone{
-    
-}
 
-.footerPhone p{
-    padding-left: 5%;
-    display: inline-block;
-}
-
-.footerPhone{
+.footerMain h4{
     text-align: left;
+    font-family: 'museo_slab500', serif;
+    color: RGB(202, 152, 68);
+
 }
 
-/*---footer-socialMedia---*/
-.footerFacebook p{
-    padding-left: 5%;
-    display: inline-block;
-}
 
-.footerFacebook{
+
+
+/*---footer-tweetFeed---*/
+.footerTweetfeed h4{
     text-align: center;
 }
 
-/*---footer-tweetFeed---*/
-.footerEmail p{
-    padding-left: 5%;
+
+/*--footerSitemap--*/
+.footerSitemap p{
     display: inline-block;
+    text-align: right;
+    width: 100%;
 }
 
-.footerEmail{
+.footerSitemap h4{
     text-align: right;
 }
