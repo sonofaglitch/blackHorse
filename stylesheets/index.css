@@ -154,8 +154,7 @@ body {
 .features div{
     display: inline-block;
     width: 33%;
-    padding: 2em 3%;
-    padding-bottom: 4%;
+    padding: 3%;
     vertical-align: top;
 }
 
@@ -174,9 +173,25 @@ body {
     padding: 2%;
     padding-top: 4%;
     margin: 1%;
-    color:  RGBa(3, 69, 89, 0.85);
+    color:  RGBa(3, 69, 89, 0.85);    
+    padding-top: 4%;
 }
 
+
+div.featureImage{
+    text-align: center;
+    width: 40%;
+    height: 0;
+    padding: 0;
+    padding-bottom: 40%;
+    background-image: url(../images/beerIconSprite3-01.png);
+    background-position: 0,0;
+    background-size: 200%;
+}
+
+div.featureImage:hover {
+background-position: 100% 0; /* Use ONLY percents here */
+}
 
 .features p{
     vertical-align: top;
@@ -464,6 +479,8 @@ body {
 
 
 /*---footer-tweetFeed---*/
+
+
 .footerTweetfeed h4{
     text-align: center;
 }
