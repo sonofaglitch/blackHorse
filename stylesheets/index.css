@@ -192,6 +192,7 @@ div.featureImage:hover {
     background-position: 100% 0; /* Use ONLY percents here */
 }
 
+
 .findUs div{
     background-image: url(../images/findUsIconSprite.png)
 }
@@ -201,9 +202,6 @@ div.featureImage:hover {
     background-image: url(../images/whatsOnIconSprite.png)
 }
 
-.featureImage img{
-    visibility: hidden;
-}
 
 .features p{
     vertical-align: top;
@@ -361,12 +359,14 @@ div.featureImage:hover {
 .footerContactStrip div{
     display: inline-block;
     width: 24%;
-    padding: 1% 3%;
+    padding: 2%;
     vertical-align: top;
 }
 
 .footerContactStrip img{
-    width: 17%;
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
 }
 
 .footerContactStrip h3{
@@ -398,7 +398,7 @@ div.featureImage:hover {
 
 
 .footerPhone p{
-    padding-left: 5%;
+    padding-left: 4%;
     display: inline-block;
 }
 
@@ -411,7 +411,7 @@ div.featureImage:hover {
 
 
 .footerFacebook p{
-    padding-left: 5%;
+    padding-left: 4%;
     display: inline-block;
 }
 
@@ -487,6 +487,36 @@ div.featureImage:hover {
 
 }
 
+div.footerStripImage{
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+    height: 0;
+    padding: 0;
+    padding-bottom: 18%;
+    background-image: url(../images/phoneIconSprite@0.5x.png);
+    background-position: 0,0;
+    background-size: 200%;
+}
+
+
+div.footerStripImage:hover {
+    background-position: 100% 0; /* Use ONLY percents here */
+}
+
+.footerFacebook div{
+    background-image: url(../images/facebookIconSprite@0.5x.png)
+}
+
+
+.footerTwitter div{
+    background-image: url(../images/twitterIconSprite@0.5x.png)
+}
+
+
+.footerEmail div{
+    background-image: url(../images/emailIconSprite@0.5x.png)
+}
 
 
 
