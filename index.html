@@ -26,34 +26,33 @@
     
     <body>
     
-        
-           <div class="jumbotron col-12 fluid">
+       <div class="jumbotron col-12 fluid">
+                
+                <nav class="navBar navbar-default" role="navigation">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Now serving</li>
+                        <li>What's on</li>
+                        <li>Contact</li>
+                    </ul>    
+                </nav>
                     
-                    <nav class="navBar navbar-default" role="navigation">
-                        <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Now serving</li>
-                            <li>What's on</li>
-                            <li>Contact</li>
-                        </ul>    
-                    </nav>
-                        
-                        <div class="jumboBackground">   <!-- Wrapper for background image -->
-                        <img src="images/bar_BW.jpg" id="barPic"/>   <!-- Hidden in CSS - used to maintain DIV size-->
-                            <div class="heroText" col-3 fluid>
-                                <h2>Welcome</h2>
-                                <h3>to</h3>
-                                <div id="blackHorseText">
-                                    <h1>The Black Horse</h1>
-                                </div>
-                            </div>
+                <div class="jumboBackground">   <!-- Wrapper for background image -->
+                    <img src="images/bar_BW.jpg" id="barPic"/>   <!-- Hidden in CSS - used to maintain DIV size-->
+                    <div class="heroText" col-3 fluid>
+                        <h2>Welcome</h2>
+                        <h3>to</h3>
+                        <div id="blackHorseText">
+                            <h1>The Black Horse</h1>
                         </div>
+                    </div>
+                </div>
                     
         </div>
         
         <div class="arrowIcon">
-                       <img src="images/heroDownArrow2.png">
+            <img src="images/heroDownArrow2.png">
         </div>
         
         <div class="heroCopy">
@@ -64,59 +63,47 @@
       
         
         <div class="features col-12 fluid">
-            <div class="feature1 col-4 fluid">
-                
-                <div class="featureImage">
-                    <a href="about.html">
-                        
-                    </a>
-                </div>
-                
+            
+            <div class="about col-4 fluid">
+                <a href="about.html">
+                    <div class="featureImage">
+                        <img src="images/findUsIcon.png">
+                    </div>
+                </a>                
                 <h2>Welcome</h2>
                 <p>Knowing beer is our thing. We offer the finest real ales from Leicester and further afield for you to enjoy in a relaxed & welcoming setting. Tip your hat to a classic pub, done just as it should be.</p>
             </div>
             
-            <div class="feature2 col-4 fluid">
-                <div class="featureImage">
-                    <a href="contact.html">
+            
+            <div class="findUs col-4 fluid">
+                <a href="contact.html">
+                    <div class="featureImage">
                         <img src="images/findUsIcon.png">
-                    </a>
-                </div>
-                
+                    </div>
+                </a> 
                 <h2>Find us</h2>
                 <p>We're right here on Braunstone Gate, in Leicester's vibrant West End. This cosmopolitan area is known for its great bars and restaurants and it's just a stone's throw from the city centre.</p>
             </div>
             
-            <div class="feature3 col-4 fluid">
-                <div class="featureImage">
-                    <a href="whatsOn.html">
-                        <img src="images/whatsOnIcon.png">
-                    </a>
-                </div>
-                
+            
+            <div class="whatsOn col-4 fluid">
+                <a href="whatsOn.html">
+                    <div class="featureImage">
+                        <img src="images/whatsOnIcon.png"/>
+                    </div>
+                </a>                
                 <h2>What's on</h2>
                 <p>Leicester's best-kept secret for live music, we play host four nights a week. You'll always find something afoot to entertain you here while you get to know our great selection of classic drinks.</p>
             </div>
-
-            
         </div>
         
         <div class="slideshowContainer col-12 fluid">
             <div class="slideshow" col-12 fluid>
-
                 <img class="mySlideshow" src="images/bar02.jpg"/>
                 <img class="mySlideshow" src="images/bar_BW.jpg"/>
 
-
-                
                 <a onclick="plusDivs(-1)"><img id="slideshowArrowLeft" src="images/slideshowArrow_left.png"/></a>
                 <a id="slideshowArrowRight" onclick="plusDivs(+1)"><img src="images/slideshowArrow_right.png"/></a> 
-             <!--   
-                <ul>
-                    <li></li>
-                    <li></li>
-                </ul>
-            -->
 
                 <script src="homeSlideshow.js"></script>    
             </div>
@@ -136,21 +123,19 @@
                     Sunday<br/>
                     </p>
                 </div>
+                
                 <div class="openingTimesRight">
-                <p>Noon - Midnight<br/>
-                Noon - Midnight<br/>   
-                Noon - Midnight<br/>
-                Noon - Midnight<br/>
-                Noon - Midnight<br/>    
-                Noon - Midnight<br/>    
-                Noon - Eleven<br/>    
-                </p>
+                    <p>Noon - Midnight<br/>
+                    Noon - Midnight<br/>   
+                    Noon - Midnight<br/>
+                    Noon - Midnight<br/>
+                    Noon - Midnight<br/>    
+                    Noon - Midnight<br/>    
+                    Noon - Eleven<br/>    
+                    </p>
                 </div>
             </div>    
-                
-                
-
-            </div>
+        </div>
         
         <div class="footer" col-12 fluid>
             <div class="footerContactStrip" col-12 fluid>

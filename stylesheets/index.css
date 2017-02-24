@@ -8,7 +8,6 @@
          url('Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -145,6 +144,7 @@ body {
     float: left;
     padding-left: 11%;
     padding-right: 11%;
+    padding-top: 1%;
     text-align: center;
     background-color: RGBa(238, 191, 112, 0.8);
     color: RGB(89, 89, 79);
@@ -154,7 +154,7 @@ body {
 .features div{
     display: inline-block;
     width: 33%;
-    padding: 3%;
+    padding: 2%;
     vertical-align: top;
 }
 
@@ -171,7 +171,6 @@ body {
     font-family: 'museo_slab500', serif;
     text-align: center;
     padding: 2%;
-    padding-top: 4%;
     margin: 1%;
     color:  RGBa(3, 69, 89, 0.85);    
     padding-top: 4%;
@@ -180,17 +179,30 @@ body {
 
 div.featureImage{
     text-align: center;
-    width: 40%;
+    width: 20%;
     height: 0;
     padding: 0;
-    padding-bottom: 40%;
-    background-image: url(../images/beerIconSprite3-01.png);
+    padding-bottom: 20%;
+    background-image: url(../images/beerIconSprite.png);
     background-position: 0,0;
     background-size: 200%;
 }
 
 div.featureImage:hover {
-background-position: 100% 0; /* Use ONLY percents here */
+    background-position: 100% 0; /* Use ONLY percents here */
+}
+
+.findUs div{
+    background-image: url(../images/findUsIconSprite.png)
+}
+
+
+.whatsOn div{
+    background-image: url(../images/whatsOnIconSprite.png)
+}
+
+.featureImage img{
+    visibility: hidden;
 }
 
 .features p{
