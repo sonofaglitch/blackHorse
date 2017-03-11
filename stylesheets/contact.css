@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'museo_slab500';
+    src: url(Museo_Slab_500_2-webfont.eot');
+    src: url('Museo_Slab_500_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('Museo_Slab_500_2-webfont.woff') format('woff'),
+         url('Museo_Slab_500_2-webfont.ttf') format('truetype'),
+         url('Museo_Slab_500_2-webfont.svg#museo_slab500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body { 
+    font: 100%/1.5; /* 16px */ 
+    background-color: black;
+}
+
+
+/*-- Hero section, inc. navbar--*/
+.jumbotron{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navBar{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.navBar ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-family: 'museo_slab500', sans-serif;
+    font-size: 22px;
+    font-weight:100;
+    color: RGB(238, 191, 112);
+    background-color: RGBa(3, 69, 89, 0.6);
+}
+
+.navBar li{
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0.5%;
+    width: 19%;
+}
+
+
+.jumboBackground{
+    background: url(../images/bar_BW.jpg) black no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 2%;
+}
+
+
+#barPic{
+    visibility: hidden;
+    width: 100%;
+    height: 550px;
+}
+
+
+.heroText h2{
+    font-family: 'Raleway', serif;
+    color: RGB(238, 191, 112);
+    font-size: 4em;
+    width: 20%;
+    margin: auto;
+    padding-right: 70%;
+}
+
+
+.heroText h3{
+    font-family: 'Raleway', serif;
+    color: RGB(238, 191, 112);
+    font-size: 3em;
+    width: 20%;
+    margin: auto;
+    padding-right: 55%;
+}
+
+
+.heroText #headerText{
+    width: 60%;
+    background-color: RGBa(234, 154, 0, 0.75);
+    margin: auto;
+}
+
+
+.heroText #headerText h1{
+    vertical-align: middle;
+    font-size: 7em;
+    font-family: 'museo_slab500', serif;
+    text-align: center;
+}
+
+
+.arrowIcon{
+    text-align: center;
+}
+
+
+.arrowIcon img{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    height: 2%;
+    width: 2%;
+}
+
+
+.heroCopy{
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: RGBa(3, 69, 89, 0.85);
+}
+
+
+.heroCopy p{
+
+    font-size: 2em;
+    color: RGBa(233, 154, 0, 0.8);
+    font-family: 'museo_slab500', serif;
+    text-align: center;
+    line-height: 98%;
+}
+
+
+
+/*---Features section ---
+-----Welcome, find us, what's on ---*/
+
+.features{
+    float: left;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 1%;
+    text-align: center;
+    background-color: RGBa(238, 191, 112, 0.8);
+    color: RGB(89, 89, 79);
+}
+
+
+.features div{
+    display: inline-block;
+    width: 33%;
+    padding: 2%;
+    vertical-align: top;
+}
+
+
+.features img{
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+}
+
+
+.features h2{
+    font-family: 'museo_slab500', serif;
+    text-align: center;
+    padding: 2%;
+    margin: 1%;
+    color:  RGBa(3, 69, 89, 0.85);    
+    padding-top: 4%;
+}
+
+
+div.featureImage{
+    text-align: center;
+    width: 20%;
+    height: 0;
+    padding: 0;
+    padding-bottom: 20%;
+    background-image: url(../images/beerIconSprite.png);
+    background-position: 0,0;
+    background-size: 200%;
+}
+
+div.featureImage:hover {
+    background-position: 100% 0; /* Use ONLY percents here */
+}
+
+
+.findUs div{
+    background-image: url(../images/findUsIconSprite.png)
+}
+
+
+.whatsOn div{
+    background-image: url(../images/whatsOnIconSprite.png)
+}
+
+
+.features p{
+    vertical-align: top;
+    padding-top: 5%;
+        font-family: 'museo_slab500', serif;
+    text-align: justify;
+    font-size: 1.25em;
+    font-weight: 100; 
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+}
+
+
+
+
+
+/*---infoBox--*/
+.infoContainer{
+    float: left;
+    background-color: RGBa(238, 191, 112, 0.8);
+    width: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 5%; 
+    text-align: center;
+    color: RGB(89, 89, 79);
+    overflow: hidden;
+}
+
+
+.infoContainer h2{
+    font-family: 'museo_slab500', serif;
+    text-align: center;
+    color:  RGBa(3, 69, 89, 0.85);
+    padding: 2%;
+}
+
+.infoContainer p{
+    vertical-align: top;
+    font-family: 'museo_slab500', serif;
+    text-align: justify;
+    font-size: 1.25em;
+    font-weight: 100; 
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+}
+
+.openingTimesBox{
+    float: left;
+    display: inline-block;
+    width: 100%; 
+}
+
+.openingTimesLeft{
+    float: left;
+    padding-left: 35%;
+}
+
+
+.openingTimesRight{
+    float: right;
+    padding-right: 35%;
+}
+
+.pubInfoBox{
+    float: right;
+    display: inline-block;
+    width: 60%;
+}
+
+.pubInfoBox h2{
+    padding-left: 10%;
+}
+
+.pubInfoBoxLeft{
+    float: left;
+    padding-left: 10%;
+}
+
+.pubInfoBoxLeft img{
+    width: 15%;
+}
+
+.pubInfoBoxRight{
+    float: right;
+    padding-right:  10%;
+}
+
+
+
+/*---Footer---*/
+
+.footer img{
+    width: 30%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*--FooterContactStrip --*/
+.footerContactStrip{
+    float: left;
+    width: 100%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: RGB(86, 79, 79);
+    color: RGB(89, 89, 79);
+}
+
+
+.footerContactStrip div{
+    display: inline-block;
+    width: 24%;
+    padding: 1%;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.footerContactStrip div p{
+    text-align: center;
+    padding-left: 4%;
+    display: inline-block;
+}
+
+
+.footerContactStrip img{
+    width: 20%;
+    height: 0;
+    padding-bottom: 20%;
+}
+
+
+.footerContactStrip h3{
+    font-family: 'museo_slab500', serif;
+    padding: 0;
+    margin: 0;
+    color:  RGB(238, 191, 112);
+}
+
+.footerContactStrip p{
+    vertical-align: top;
+    padding-top: 5%;
+    margin: 0;
+    font-family: 'museo_slab500', serif;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 100; 
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+    color: RGB(202, 152, 68);
+}
+
+
+div.footerStripImage{
+    text-align: center;
+    vertical-align: middle;
+    width: 18%;
+    height: 0;
+    padding: 0;
+    padding-bottom: 18%;
+    background-position: 0,0;
+    background-size: 200%;
+}
+
+
+div.footerStripImage:hover{
+    background-position: 100% 0; /* Use ONLY percents here */
+}
+
+
+
+.footerEmail{
+    text-align: right;
+    padding-right: 0;
+    text-align: center;
+}
+
+
+
+/*-- background sprites --*/
+.footerPhone div{
+    background-image: url(../images/phoneIconSprite@0.5x.png)
+}
+
+
+.footerFacebook div{
+    background-image: url(../images/facebookIconSprite@0.5x.png)
+}
+
+
+.footerTwitter div{
+    background-image: url(../images/twitterIconSprite2@0.5x.png)
+}
+
+
+.footerEmail div{
+    background-image: url(../images/emailIconSprite@0.5x.png)
+}
+
+
+.footerContactStrip div a:hover p{
+        color: RGB(238, 191, 112);
+}
+
+.footerContactStrip div a:hover div.footerStripImage{
+    background-position: 100% 0; /* Use ONLY percents here */
+}
+
+
+
+/*--FooterMain --*/
+.footerMain{
+    float: left;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: RGBa(3, 69, 89, 0.85);
+    color: RGB(89, 89, 79);
+}
+
+.footerMain div{
+    display: inline-block;
+    width: 33%;
+    padding: 2em 3%;
+    padding-bottom: 2%;
+    vertical-align: top;
+}
+
+.footerMain h3{
+    font-family: 'museo_slab500', serif;
+    padding: 0;
+    margin: 0;
+    color:  RGB(238, 191, 112);
+}
+
+.footerMain p{
+    vertical-align: top;
+    padding-top: 5%;
+    font-family: 'museo_slab500', serif;
+    text-align: justify;
+    font-size: 1.25em;
+    font-weight: 100; 
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+    color: RGB(212, 190, 106);    
+}
+
+
+.footerMain h4{
+    text-align: left;
+    font-family: 'museo_slab500', serif;
+    color: RGB(202, 152, 68);
+
+}
+
+
+
+
+
+
+/*---footer-tweetFeed---*/
+
+.footerTweetfeed h4{
+    text-align: center;
+}
+
+
+/*--footerSitemap--*/
+.footerSitemap p{
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+.footerSitemap h4{
+    text-align: right;
+}
